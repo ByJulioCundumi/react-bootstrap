@@ -261,6 +261,21 @@ function App() {
 
           </section>
 
+          <section className="row mt-5 justify-content-center">
+            <div className="col-4">
+
+              <ul className="pagination">
+                <li className="page-item"><a href="#" className="page-link">Prev</a></li>
+                <li className="page-item active"><a href="#" className="page-link">1</a></li>
+                <li className="page-item"><a href="#" className="page-link">2</a></li>
+                <li className="page-item"><a href="#" className="page-link">3</a></li>
+                <li className="page-item"><a href="#" className="page-link">4</a></li>
+                <li className="page-item"><a href="#" className="page-link">Next</a></li>
+              </ul>
+
+            </div>
+          </section>
+
         </div>
 
         <footer className="bg-dark mt-5">
